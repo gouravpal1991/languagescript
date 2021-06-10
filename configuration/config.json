@@ -1,0 +1,30 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "country": "Arabic in Kuwait",
+      "languageCode": "ar-rKW",
+      "transDirIos": "ar-rKW",
+      "transDirAndroid": "ar-rKW"
+    },
+    {
+      "id": 1,
+      "country": "Chinese in China",
+      "languageCode": "zh-rCN",
+      "transDirIos": "zh-rCN",
+      "transDirAndroid": "zh-rCN"
+    }
+  ],
+  "dir": [
+    {
+      "platform": "ios",
+      "name": "valuesIOS",
+      "langFileName": "strings.xml"
+    },
+    {
+      "platform": "android",
+      "name": "values",
+      "langFileName": "strings.xml"
+    }
+  ]
+}
