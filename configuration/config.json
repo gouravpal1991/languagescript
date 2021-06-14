@@ -15,16 +15,21 @@
       "transDirAndroid": "zh-rCN"
     }
   ],
-  "dir": [
+  "languageDirs": [
     {
       "platform": "ios",
       "name": "valuesIOS",
-      "langFileName": "strings.xml"
+      "langFileName": "strings.xml",
+      "templateFilePath": "template//android//strings.xml"
     },
     {
       "platform": "android",
       "name": "values",
-      "langFileName": "strings.xml"
+      "langFileName": "strings.xml",
+      "templateFilePath": "template//android//strings.xml"
     }
-  ]
+  ],
+  "tempPathLocations": "configuration//tempFilePath.json",
+  "languageDirectory": "language",
+  "csvFilePath": "configuration//sample.csv"
 }
